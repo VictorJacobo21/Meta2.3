@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
+ */
 package wordle.wordlegame;
 
 import org.junit.Test;
@@ -5,7 +9,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author VictorJ
+ * @author PC
  */
 public class WordleTest {
     
@@ -28,16 +32,6 @@ public class WordleTest {
         String intento = "";
         Wordle instance = new Wordle();
         instance.intento(intento);
-        fail("The test case is a prototype.");
-    }
-
-    @Test
-    public void testGetResultado() {
-        System.out.println("getResultado");
-        Wordle instance = new Wordle();
-        String expResult = "";
-        String result = instance.getResultado();
-        assertEquals(expResult, result);
         fail("The test case is a prototype.");
     }
     
